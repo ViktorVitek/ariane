@@ -68,8 +68,8 @@ package ariane_pkg;
       ExecuteRegionLength:   {64'h40000000,  64'h10000,  64'h1000},
       // cached region
       NrCachedRegionRules:    1,
-      CachedRegionAddrBase:  {64'h8000_0000},
-      CachedRegionLength:    {64'h40000000},
+      CachedRegionAddrBase:  {64'ha000_0000},	// Makes 8000-a000 NC
+      CachedRegionLength:    {64'h20000000},
       //  cache config
       Axi64BitCompliant:      1'b1,
       SwapEndianess:          1'b0,

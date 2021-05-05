@@ -82,8 +82,8 @@ package ariane_soc;
     ExecuteRegionLength:   {DRAMLength, ROMLength, DebugLength},
     // cached region
     NrCachedRegionRules:    1,
-    CachedRegionAddrBase:  {DRAMBase},
-    CachedRegionLength:    {DRAMLength},
+    CachedRegionAddrBase:  {64'ha000_0000},
+    CachedRegionLength:    {64'h2000_0000},
     //  cache config
     Axi64BitCompliant:      1'b1,
     SwapEndianess:          1'b0,
